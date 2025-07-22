@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Profil Saya</title>
+  <title>Godbar-learn</title>
   <style>
     * {
       margin: 0;
@@ -12,26 +12,33 @@
     }
 
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Bebasneue ui', sans-serif;
       background: #f4f6f8;
       color: #333;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(to right, #4facfe, #00f2fe);
-      color: white;
+    
+      background: linear-gradient(to right, #a56a3c , #472409);
+      color: #000000;
       padding: 40px 20px;
       text-align: center;
     }
-
+    
     header h1 {
       font-size: 2.5em;
+      -webkit-text-stroke: 1.2px lab(100% 0.01 -0.01);
+      font-style: inherit;
+      font-family: 'Segoe UI';
+      
     }
 
     header p {
       font-size: 1.2em;
       margin-top: 10px;
+      -webkit-text-stroke:0.5px #472409;
+      color: hsl(0, 0%, 100%);
     }
 
     .container {
@@ -74,8 +81,8 @@
     }
 
     .skills li {
-      background: #4facfe;
-      color: white;
+      background: #a56a3c;
+      color: rgb(255, 255, 255);
       padding: 8px 14px;
       border-radius: 8px;
     }
@@ -95,42 +102,48 @@
     }
   </style>
 </head>
-<body>
+<body style="background-color: #debfa8;">
 
-  <header>
-    <h1>Akbar Maulana</h1>
-    <p>Web Developer | UI Designer | Digital Enthusiast</p>
+  <header style="background-image: url(header.jpg);">
+    <h1><b>MALVYN BAKERY</b></h1>
+    <p><b>Bread</b> | <b>Pastry</b> | <b>Cake</b> </p>
+  
+
   </header>
 
   <div class="container">
     <div class="profile-card">
-      <img src="https://via.placeholder.com/150" alt="Foto Profil">
-      <h2>Halo, Saya Akbar!</h2>
-      <p>Saya seorang pengembang web yang fokus pada pembuatan UI yang menarik dan pengalaman pengguna yang optimal.</p>
+      <img src="Logo.png" alt="Foto Profil">
+      <h2>Just one bite & you will smile a whole day!</h2>
+      <p>We make with love and passion</p>
+      <p>Just sell what we make but if you want custom feel free to ask 💕</p>
     </div>
 
     <div class="skills">
-      <h3>Keahlian</h3>
+      <h3>Our Product</h3>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Figma</li>
-        <li>Responsive Design</li>
+        <a href="https://www.google.com/search?q=bread&sca_esv=fc7df528f7b59b64&sxsrf=AE3TifP9jDAR13GWVClu1ul2euw3ZWB9Cg%3A1753155088098&ei=EAZ_aKXcBdus4-EP8K6biAs&ved=0ahUKEwilpIzSw8-OAxVb1jgGHXDXBrEQ4dUDCBA&uact=5&oq=bread&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWJyZWFkMg0QABiABBhDGMkDGIoFMggQABiABBiSAzILEAAYgAQYkgMYigUyChAuGIAEGEMYigUyChAuGIAEGEMYigUyCBAAGIAEGLEDMhYQLhiABBixAxjRAxhDGIMBGMcBGIoFMggQABiABBixAzIIEC4YgAQYsQMyCBAAGIAEGLEDSKQcUNMEWJQbcAJ4AZABApgBiQOgAd4TqgEFMi0zLjW4AQPIAQD4AQGYAgagAowKqAIUwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgoQIxiABBgnGIoFwgIREC4YgAQYsQMY0QMYgwEYxwHCAgsQABiABBixAxiDAcICIBAuGIAEGLEDGNEDGIMBGMcBGJcFGNwEGN4EGOAE2AEBwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAhQQABiABBjjBBi0AhjpBBjqAtgBAcICBBAjGCfCAgUQLhiABMICBRAAGIAEwgIQEC4YgAQYsQMYQxiDARiKBcICDhAuGIAEGMcBGI4FGK8BwgIfEC4YgAQYsQMYQxiDARiKBRiXBRjcBBjeBBjfBNgBAZgDFvEFIoddEMdOz8eIBgGQBgq6BgYIARABGBSSBwcyLjAuMi4yoAeqY7IHBTItMi4yuAfgCcIHBzItMS4zLjLIB1Y&sclient=gws-wiz-serp" target="_blank">
+        <li>bread</li>
+        </a>
+        <a href="https://www.google.com/search?q=pastry&oq=pastry&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQLhhDGIAEGIoFMgYIAhBFGEAyBggDECMYJzIGCAQQIxgnMgwIBRAuGEMYgAQYigUyDAgGEC4YQxiABBiKBTIMCAcQLhhDGIAEGIoF0gEIMTE0N2owajmoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">
+        <li>Pastry</li>
+        </a>
+        
+        <a href="https://www.google.com/search?q=Cake&oq=Cake&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhAjGCcyBggDECMYJzIMCAQQLhhDGIAEGIoFMhMIBRAuGIMBGMcBGLEDGNEDGIAEMgwIBhAAGEMYgAQYigUyDAgHEC4YQxiABBiKBdIBCDExNzJqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">
+        <li>Cake</li>
+        </a>
       </ul>
     </div>
-
     <div class="contact">
-      <h3>Kontak</h3>
-      <p>Email: akbar@email.com</p>
-      <p>LinkedIn: linkedin.com/in/akbar</p>
-      <p>GitHub: github.com/akbarmaulana</p>
+      <h3>Contact</h3>
+      <p>Instagram: @Malvynsbakery</p>
+      <p>Tiktok: @Malvynsbakery</p>
+      <p>Shopee: Malvyns Bakery</p>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 Akbar Maulana. All rights reserved.
+    &copy; 2025 Baked by Malvyn's . All rights reserved.
   </footer>
 
 </body>
