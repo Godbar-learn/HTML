@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Saya</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .profile-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h2 {
+      margin-bottom: 10px;
+    }
+
+    .skills, .contact {
+      margin-top: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills li {
+      background: #4facfe;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eaeaea;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .skills ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Akbar Maulana</h1>
+    <p>Web Developer | UI Designer | Digital Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <div class="profile-card">
+      <img src="https://via.placeholder.com/150" alt="Foto Profil">
+      <h2>Halo, Saya Akbar!</h2>
+      <p>Saya seorang pengembang web yang fokus pada pembuatan UI yang menarik dan pengalaman pengguna yang optimal.</p>
+    </div>
+
+    <div class="skills">
+      <h3>Keahlian</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Figma</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h3>Kontak</h3>
+      <p>Email: akbar@email.com</p>
+      <p>LinkedIn: linkedin.com/in/akbar</p>
+      <p>GitHub: github.com/akbarmaulana</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Akbar Maulana. All rights reserved.
+  </footer>
+
+</body>
+</html>
